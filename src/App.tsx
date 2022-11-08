@@ -9,9 +9,14 @@ function App() {
         <div>
             <PageTitle title={'This is APP component'}/>
             <PageTitle title={'This is OOO component'}/>
-            <Rating value={4}/>
+            <Rating value={0}/>
+            <Rating value={1}/>
+            <Rating value={2}/>
             <Rating value={3}/>
-            <Accordion title={'Accordion'}/>
+            <Rating value={4}/>
+            <Rating value={5}/>
+            <Accordion title={'Menu'} collapsed={false}/>
+            <Accordion title={'Users'} collapsed={true}/>
         </div>
     );
 }
